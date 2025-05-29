@@ -75,4 +75,4 @@ src/
 └── main.ts                     # Application entry point
 ```
 ## 📸 Screenshots
-![img.png](img.png)
+![image](https://github.com/user-attachments/assets/8d061237-506b-4b11-9644-d55ec3733807)
