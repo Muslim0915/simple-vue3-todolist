@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+button{
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+  color: $color-white;
+}
+a{
+  text-decoration: none;
+  color: $color-black;
+}
+input{
+  width: 100%;
+  outline: none;
+  border: none;
+  background: none;
+}
+ul, ol, li{
+  list-style: none;
+}
+.submit__button{
+  background: $primary-color;
+  border: 1px solid $primary-color;
+  &:hover{
+    background: $color-white;
+    color: $primary-color;
+  }
+}
+.reset__button{
+  background: $danger-color;
+  border: 1px solid $danger-color;
+  &:hover{
+    background: $color-white;
+    color: $danger-color;
+  }
+}
